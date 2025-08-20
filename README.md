@@ -17,3 +17,5 @@ if the die shows a number between 5 and 6 (for the right direction), the intensi
 if the die shows a number between 1 and 3 (backward), the travel distance for 3 is greater than that for 2, which is greater than that for 1 (Td<sub>3</sub> > Td<sub>2</sub> > Td<sub>1</sub>).
 if the die shows a number between 4 and 6 (forward), the travel distance for 6 is greater than that for 5, which is greater than that for 4 (Td<sub>6</sub> > Td<sub>5</sub> > Td<sub>4</sub>).
 ## How use it 
+For this project, I use a Raspberry Pi 4 for the control, an LCD 1602, 3 DC motors, 2 L298N, resistors, LEDs, and an MP1584 converter. The mounting circuit is among the files. You can see all the necessary connections and do it yourself.
+Open the Python code on the RPi and run it. Before starting, make sure that all dependencies are installed and that the circuit is properly assembled. To communicate with an AI API, you must create an API_KEY and save the key in a file with the extension .env. For more information, visit this link. [https://wedevs.com/blog/483810/generate-chatgpt-api-key/](https://wedevs.com/blog/483810/generate-chatgpt-api-key/)
