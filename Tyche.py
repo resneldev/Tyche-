@@ -25,6 +25,8 @@ M2_IN1, M2_IN2, M2_EN = 22, 23, 19
 #Motor 3
 M3_IN1, M3_IN2, M3_EN = 5, 6, 13
 
+led_camera = 26  # LED for camera capture
+
 #list for initialisation
 pins = [M1_IN1, M1_IN2, M1_EN,
         M2_IN1, M2_IN2, M2_EN,
@@ -304,9 +306,10 @@ def main():
             pwm3.ChangeDutyCycle(0)  # Stop the motor
             lcd.clear()
             roll_number += 1
+            GPIO.output(led_camera, GPIO.HIGH)  # Turn on the camera LED
             image = capture_dice_image(picam2)
             lcd.write_string(f"Image captured")  
-
+            GPIO.output(led_camera, GPIO.LOW)  # Turn off the camera LED
             #save image to disk
             print("Saving image to disk...")
             lcd.clear()
