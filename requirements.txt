@@ -1,3 +1,9 @@
+# Python virtual environment requirements file.
+# Usage:
+#     python3 -m venv venv
+#     source venv/bin/activate
+#     pip3 install -r requirements.txt
+
 numpy
 opencv-python
 python-dotenv
