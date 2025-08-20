@@ -19,3 +19,11 @@ if the die shows a number between 4 and 6 (forward), the travel distance for 6 i
 ## How use it 
 For this project, I use a Raspberry Pi 4 for the control, an LCD 1602, 3 DC motors, 2 L298N, resistors, LEDs, and an MP1584 converter. The mounting circuit is among the files. You can see all the necessary connections and do it yourself.
 Open the Python code on the RPi and run it. Before starting, make sure that all dependencies are installed and that the circuit is properly assembled. To communicate with an AI API, you must create an API_KEY and save the key in a file with the extension .env. For more information, visit this link. [https://wedevs.com/blog/483810/generate-chatgpt-api-key/](https://wedevs.com/blog/483810/generate-chatgpt-api-key/)
+## Dependencies
+Dependencies are specified in requirements.txt for installation using pip. They include:
+- numpy
+- opencv-python
+- python-dotenv
+- openai
+- RPi.GPIO
+- RPLCD
