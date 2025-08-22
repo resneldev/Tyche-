@@ -1,5 +1,5 @@
 # Tyche (the name of the Greek goddess of randomness)
-And if the **Randomness** could take move in the sense of physical move ? In this projet i design a mini car that moves thanks to pure random. The randomness is based on a 6-sided dice spear.
+And if **Randomness** could result in physical movement? In this project, I am designing a mini car that moves purely randomly. The randomness is based on a 6-sided dice.
 ## How it work 
 to carry out a movement, two throws are necessary: The first throw allows giving mainly the turning direction (left or right) and the second only the direction of moving (forward or backward). For the detection of the number of points on the face of the dice, a camera takes a photo of each trow and sends it to the artificial intelligence API (Chat GPT), which only returns (without comment or text) the number of points read.
 ### how is the value returned by the AI used
