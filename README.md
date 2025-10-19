@@ -1,6 +1,6 @@
 # Tyche (the name of the Greek goddess of randomness)
 And if **Randomness** could result in physical movement? In this project, I am designing a mini car that moves purely randomly. The randomness is based on a 6-sided dice.
-## The purpose of this projet
+## The purpose of this project
 The purpose of this project is not merely to experiment with code and electronic components. Its true goal lies more in the field of the physics of consciousness than in electrical engineering.
 With this project, I aim to study chaotic systems and explore the possible influence of human thought and emotion on matter. The physical theory that addresses this idea is the theory of double causality, and this project — which is more of an experimental investigation —seeks to test and demonstrate whether this theory holds true.
 ## How it work 
